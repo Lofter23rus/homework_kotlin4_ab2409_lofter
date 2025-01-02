@@ -18,7 +18,7 @@ class PersonsKtTest {
     fun sortsByAge() {
         assertEquals(
             listOf(P5, P4, P3, P2, P1),
-            persons.sortByAge()
+            persons.getSortByAge()
         )
     }
 
